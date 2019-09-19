@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2352D8D1233329F800EAC7C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352D8D0233329F800EAC7C0 /* main.swift */; };
+		2352D8D823332B4200EAC7C0 /* GenericClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352D8D723332B4200EAC7C0 /* GenericClass.swift */; };
+		2352D8DA23332B8800EAC7C0 /* GenericClassInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352D8D923332B8800EAC7C0 /* GenericClassInstance.swift */; };
+		2352D8DC23332BEF00EAC7C0 /* GenericClassInsrance+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2352D8DB23332BEF00EAC7C0 /* GenericClassInsrance+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		2352D8CD233329F800EAC7C0 /* FunWithSwiftCompiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FunWithSwiftCompiler; sourceTree = BUILT_PRODUCTS_DIR; };
 		2352D8D0233329F800EAC7C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2352D8D723332B4200EAC7C0 /* GenericClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericClass.swift; sourceTree = "<group>"; };
+		2352D8D923332B8800EAC7C0 /* GenericClassInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericClassInstance.swift; sourceTree = "<group>"; };
+		2352D8DB23332BEF00EAC7C0 /* GenericClassInsrance+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GenericClassInsrance+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				2352D8D0233329F800EAC7C0 /* main.swift */,
+				2352D8D723332B4200EAC7C0 /* GenericClass.swift */,
+				2352D8D923332B8800EAC7C0 /* GenericClassInstance.swift */,
+				2352D8DB23332BEF00EAC7C0 /* GenericClassInsrance+Ex.swift */,
 			);
 			path = FunWithSwiftCompiler;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2352D8D823332B4200EAC7C0 /* GenericClass.swift in Sources */,
+				2352D8DA23332B8800EAC7C0 /* GenericClassInstance.swift in Sources */,
+				2352D8DC23332BEF00EAC7C0 /* GenericClassInsrance+Ex.swift in Sources */,
 				2352D8D1233329F800EAC7C0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
